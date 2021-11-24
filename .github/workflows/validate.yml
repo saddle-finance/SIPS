@@ -33,3 +33,6 @@ jobs:
 
       - name: Run GH pages healthcheck
         run: bundle exec github-pages health-check
+
+      - name: Run SIP validator
+        run: bundle exec sdl_validator $(ls SIPS/*.md | egrep "sip-[0-9]+.md")

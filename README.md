@@ -28,7 +28,14 @@ When you believe your SIP is mature and ready to progress past the WIP phase, yo
 
 ## Validation
 
-SIPs must pass some validation tests.  The SIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer).
+SIPs must pass some validation tests. The SIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [sdl_validator](https://rubygems.org/gems/sdl_validator).
+
+It is possible to run the SIP validator locally:
+
+```
+gem install sdl_validator
+sdl_validator <INPUT_FILES>
+```
 
 ## Copyright
 
