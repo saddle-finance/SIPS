@@ -56,6 +56,3 @@ jobs:
 
       - name: Run GH pages healthcheck
         run: bundle exec github-pages health-check
-
-      - name: Run YIP validator
-        run: bundle exec yip_validator $(ls YIPS/*.md | egrep "yip-[0-9]+.md")
