@@ -14,15 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 description: >-
-  yEarn Improvement Proposals (YIPs) describe standards for the yEarn
+  Saddle Improvement Proposals (SIPs) describe standards for the Saddle
   platform, including core protocol specifications, client APIs, and contract
   standards.
-url: "https://yips.yearn.finance"
-repository: iearn-finance/YIPS
+url: "https://sips.saddle.finance"
+repository: iearn-finance/SIPS
 twitter_username: iearnfinance
 github_username: iearn-finance
 header_pages:
-  - all-yip.html
+  - all-sip.html
 twitter:
   card: summary
   username: iearnfinance
@@ -37,9 +37,9 @@ permalink: /:slug
 
 defaults:
   - scope:
-      path: "YIPS"
+      path: "SIPS"
     values:
-      layout: "yip"
+      layout: "sip"
   - scope:
       path: ""
     values:
@@ -53,4 +53,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - yip-X.md
+  - sip-X.md
