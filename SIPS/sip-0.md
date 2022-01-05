@@ -132,7 +132,10 @@ SIPs may include auxiliary files such as diagrams. Such files must be named SIP-
 
 The current SIP editors are:
 
-` * Sunil Srivatsa (@alphastorm)`
+- Sunil Srivatsa (@alphastorm)
+- John Lim (@penandlim)
+- David Hamme (@hammeiam)
+- Arthur Zhuk (@ug02fast)
 
 ## SIP Editor Responsibilities
 
